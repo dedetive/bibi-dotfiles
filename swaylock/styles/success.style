@@ -1,0 +1,14 @@
+grace=1000000
+ignore-empty-password
+daemonize
+effect-blur=26x12
+effect-vignette=0.1:0.9
+screenshots
+indicator
+ring-color=305036
+inside-color=102210
+text-color=c8f3d0
+clock
+timestr=:3
+datestr=Yippeee
+ignore-empty-password

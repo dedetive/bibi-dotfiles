@@ -1,0 +1,26 @@
+effect-blur=26x12
+effect-vignette=0.1:0.9
+screenshots
+ring-color=44324e
+inside-color=18011e
+text-color=fec5e5
+key-hl-color=fec5e5
+bs-hl-color=845094
+ring-clear-color=5B3B43
+inside-clear-color=27131C
+text-clear-color=E3BEC8
+ring-wrong-color=671924
+inside-wrong-color=2f0102
+text-wrong-color=f7adb6
+ring-ver-color=32354e
+inside-ver-color=01051f
+text-ver-color=c5d3fe
+text-caps-lock-color=fec5e5
+hide-keyboard-layout
+clock
+timestr=o/
+datestr=uwu
+text-clear=o.O
+text-wrong=Naw >:(
+text-ver=Hmm... <.<
+text-caps-lock=:0
