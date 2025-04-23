@@ -1,6 +1,6 @@
 #!/bin/bash
 
-STYLE_DIR="$HOME/.config/sway/styles"
+STYLE_DIR="../styles"
 STYLE_MAIN="$STYLE_DIR/main.style"
 STYLE_SUCCESS="$STYLE_DIR/success.style"
 
