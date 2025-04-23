@@ -1,0 +1,16 @@
+  --no-verify
+  --inside-color=102210
+  --ring-color=305036
+  --time-color=c8f3d0
+  --date-color=c8f3d0
+  --keyhl-color=c8f3d0
+  --bshl-color=845094
+  --ringver-color=305036
+  --insidever-color=102210
+  --verif-color=c8f3d0
+  --force-clock
+  --indicator
+  --time-str=":3"
+  --date-str="yippeee"
+  --verif-text=":3"
+  --no-modkey-text

@@ -1,0 +1,21 @@
+  -n
+  --inside-color=18011e
+  --ring-color=44324e
+  --line-color=000000
+  --time-color=fec5e4
+  --date-color=fec5e5
+  --keyhl-color=fec5e5
+  --bshl-color=845094
+  --ringwrong-color=5b3b43
+  --insidewrong-color=2f0102
+  --wrong-color=f7adb6
+  --ringver-color=32354e
+  --insidever-color=01051f
+  --verif-color=c5d3fe
+  --clock
+  --time-str="o/"
+  --date-str="uwu"
+  --verif-text="Hmm... <.<"
+  --wrong-text="Naw >:("
+  --noinput-text="o.O"
+  --no-modkey-text
