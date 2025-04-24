@@ -4,7 +4,7 @@ Currently, I'm running EndeavourOS with Sway WM.
 
 Personal and cozy dotfiles from [dedetive](https://github.com/dedetive), filled with uwu vibes, soft colors, and cuteness.
 
-This repository includes various config files and scripts to customize the Linux desktop experience.
+This repository includes (or will include, idk) various config files and scripts to customize the Linux desktop experience.
 
 <details>
   <summary><strong>Swaylock</strong></summary>
