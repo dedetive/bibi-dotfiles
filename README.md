@@ -7,7 +7,7 @@ Personal and cozy dotfiles from [dedetive](https://github.com/dedetive), filled 
 This repository includes various config files and scripts to customize the Linux desktop experience.
 
 <details>
-  <summary>Swaylock</summary>
+  <summary><strong>Swaylock</strong></summary>
   
 ## swaylock/
 
@@ -105,7 +105,7 @@ Correct:
 
 </details>
 
-<details> <summary>i3lock</summary>
+<details> <summary><strong>i3lock</strong></summary>
   
 ## i3lock/
 
