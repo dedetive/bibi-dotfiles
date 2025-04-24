@@ -2,7 +2,6 @@
 
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 STYLE_DIR="$SCRIPT_DIR/styles"
-echo $STYLE_DIR
 STYLE_MAIN="$STYLE_DIR/main.style"
 STYLE_SUCCESS="$STYLE_DIR/success.style"
 
