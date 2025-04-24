@@ -1,6 +1,6 @@
 # My Dotfiles
 
-Currently, I'm running EndeavourOS with Sway WM.
+Currently, I'm running [EndeavourOS](https://endeavouros.com) with [Sway](https://swaywm.org) WM.
 
 Personal and cozy dotfiles from [dedetive](https://github.com/dedetive), filled with uwu vibes, soft colors, and cuteness.
 
