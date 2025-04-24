@@ -15,7 +15,7 @@ if swaylock --config $STYLE_MAIN; then
     sleep 1.8
 
     # Kill only the most recent swaylock daemon instance safely
-    pid=$(pgrep -n -f "swaylock")
+    pid=$(pgrep -n -f "swaylock.*success")
     if [ -n "$pid" ]; then
       kill -USR1 "$pid"
     fi
