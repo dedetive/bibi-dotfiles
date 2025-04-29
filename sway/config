@@ -1,4 +1,4 @@
-# Default config for sway
+# My config for sway
 #
 # Copy this to ~/.config/sway/config and edit it to your liking.
 #
@@ -13,12 +13,15 @@ set $left h
 set $down j
 set $up k
 set $right l
-# Your preferred terminal emulator
+# Main terminal
 set $term alacritty
-# Your preferred application launcher
+# Application launcher
 # set $menu wmenu-run
 for_window [app_id="^launcher$"] floating enable, sticky enable, resize set 30 ppt 60 ppt, border pixel 10
 set $menu exec $term --class=launcher -e /usr/bin/sway-launcher-desktop
+
+# Launch swaync 
+exec swaync
 
 ### Output configuration
 #
