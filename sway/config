@@ -1,4 +1,4 @@
-# My config for sway
+# Default config for sway
 #
 # Copy this to ~/.config/sway/config and edit it to your liking.
 #
@@ -18,10 +18,14 @@ set $term alacritty
 # Application launcher
 # set $menu wmenu-run
 for_window [app_id="^launcher$"] floating enable, sticky enable, resize set 30 ppt 60 ppt, border pixel 10
-set $menu exec $term --class=launcher -e /usr/bin/sway-launcher-desktop
+# set $menu exec $term --class=launcher -e /usr/bin/sway-launcher-desktop
+set $menu exec wofi
 
 # Launch swaync 
 exec swaync
+
+# Launch mouseless
+# exec sudo mouseless ~/.config/mouseless/config.yaml
 
 ### Output configuration
 #
@@ -48,7 +52,7 @@ output * bg $wallpaper fill
 # your displays after another 300 seconds, and turn your screens back on when
 # resumed. It will also lock your screen before your computer goes to sleep.
 
-exec swayidle -w \
+exec swayidle --locked -w \
   timeout 180 '~/.config/sway/swaylock/lock.sh' \
   timeout 240 'swaymsg "output * dpms off"' \
   resume 'swaymsg "output * dpms on"' \
@@ -255,7 +259,7 @@ bindsym $mod+r mode "resize"
     set $opacity 0.99
     for_window [app_id="."] {
     
-        title_format "<span foreground='$color14' letter_spacing='1024' weight='bold'>%title</span>"
+        title_format "<span foreground='$color14' letter_spacing='1024' weight='bold'>%title (%app_id)</span>"
         title_align center
         default_border normal 1
         for_window [app_id=".*"] opacity $opacity
@@ -269,6 +273,8 @@ bindsym $mod+r mode "resize"
     # Specific windows
     for_window {
         [app_id="firefox"] border none
+        [app_id="zen-browser"] border none
+        [class="jetbrains-*"] border none
         [app_id="Alacritty"] title_format "<span letter_spacing='1024' weight='bold' foreground='$color3'><tt>  </tt></span> <span foreground='$color14' letter_spacing='1024' weight='bold'>%title</span>"
     } 
 
@@ -283,6 +289,14 @@ bindsym $mod+r mode "resize"
     bindsym Print exec sway-screenshot -m region
     # Lock screen
     bindsym $mod+Shift+Ctrl+l exec '~/.config/sway/swaylock/lock.sh'
+    # Play-pause toggle
+    bindsym --locked XF86AudioPlay exec playerctl play-pause
+    # Sway notification center toggle
+    bindsym $mod+n exec swaync-client -t -sw
+    # Network Manager UI toggle
+    bindsym $mod+Ctrl+n exec \
+    pkill nmtui ||\
+    kitty nmtui
 
 #
 #
