@@ -2,6 +2,8 @@
 
 Currently, I'm running [EndeavourOS](https://endeavouros.com) with [Sway](https://swaywm.org) WM.
 
+Nope, I'm not addicted to ricing— I can stop whenever I want. I just don't feel like it yet.
+
 Personal and cozy dotfiles from [dedetive](https://github.com/dedetive), filled with uwu vibes, soft colors, and cuteness.
 
 This repository includes (or will include, idk) various config files and scripts to customize the Linux desktop experience.
